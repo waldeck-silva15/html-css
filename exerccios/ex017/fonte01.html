@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in (polegadas), px, pt, pc
+
+            Medidas Relativas 
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            16px é o tamanho padrão geralmente 
+            usar preferencialmente px e em como medida.
+            
+            */
+            font-size: 1em;
+            
+        }
+  h1 {
+    /* 
+    shorthand font
+    - font-style-> font-weight -> font-size -> font-family essa é a ordem de adição
+
+    font-family 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em
+    font-style: italic;
+    */
+    font: italic bolder 3em 'work Sans', sans-serif;
+  }
+  h2 {
+    font: bold 2em 'Work Sans'
+  }
+    </style>
+</head>
+<body>
+    <h1>Trbalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eos suscipit consequuntur optio, aliquid natus accusamus architecto saepe odio obcaecati qui velit ipsam fugiat voluptatem sapiente doloremque voluptatibus! Numquam, odit? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora libero minus exercitationem hic culpa. Placeat voluptas pariatur, officia voluptates nemo praesentium nam excepturi assumenda aliquam? Ad dolore earum quisquam qui!Lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates, labore suscipit officia tempora ex sunt animi recusandae aliquam facilis, eveniet laudantium aliquid ratione quaerat deleniti amet fugit quibusdam minus.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita beatae inventore aspernatur facilis et maxime iste modi corporis eligendi. Reprehenderit aspernatur magni sit in, praesentium rerum optio velit architecto nisi.</p>
+    
+</body>
+</html>
