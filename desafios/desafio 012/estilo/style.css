@@ -20,7 +20,7 @@
 
 
 html, body {
-    min-height: 100vh;
+    min-height: 50vh;
     font-family:var(--fonte1) ;
     background-color: darkgray;
 
